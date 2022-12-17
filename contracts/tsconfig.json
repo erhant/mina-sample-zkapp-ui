@@ -19,5 +19,11 @@
     "noFallthroughCasesInSwitch": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["./src", "misc/Add.test.ts"]
+  "include": [
+    "./src",
+    "misc/Add.test.ts",
+    "contracts/Add.ts",
+    "test/Add.test.ts",
+    "common/snarky.ts"
+  ]
 }
